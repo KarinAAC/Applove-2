@@ -1,5 +1,6 @@
 /*CLASES REUTILIZABLES*/
 
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -13,12 +14,20 @@
   box-sizing: border-box;
 }
 
+html,body{
+  line-height:1.5
+}
+
+html{
+  overflow-x:hidden
+}
+
 body {
   font-family: 'Raleway', sans-serif;
-  margin: 0 auto;
+  margin: 0 ;
   font-size: 16px;
-  line-height: 1.71429;
   background-color: #fff;
+
 }
 
 img {
